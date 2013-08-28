@@ -1,0 +1,28 @@
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN"  
+    "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd"> 
+ 
+<validators> 
+    <!-- 用户名验证 --> 
+    <field name="name"> 
+        <field-validator type="requiredstring"> 
+                    <param name="trim">true</param> 
+            <message>用户名不能为空!</message> 
+        </field-validator> 
+        <field-validator type="regex"> 
+            <param name="expression"><![CDATA[(\w{4,8})]]></param> 
+            <message>账号必须是长度为 4-8的数字或字母！</message> 
+        </field-validator> 
+    </field> 
+    <!-- 密码验证 --> 
+    <field name="pwd"> 
+        <field-validator type="requiredstring"> 
+            <param name="trim">true</param> 
+            <message>密码不能为空!</message> 
+        </field-validator> 
+        <field-validator type="regex"> 
+            <param name="expression"><![CDATA[(\w{4,8})]]></param> 
+            <message>密码必须长度为 4-8的数字或字母！</message> 
+        </field-validator> 
+    </field> 
+ 
+</validators>  

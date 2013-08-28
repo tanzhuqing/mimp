@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class catalog="liber_db" lazy="false" name="domain.user" schema="dbo" table="book_t">
+  <id name="id" type="java.lang.Integer">
+   <column name="id"/>
+   <generator class="native"/>
+  </id>
+  <property generated="never" lazy="false" name="username" type="java.lang.String">
+   <column length="50" name="username"/>
+  </property>
+  <property generated="never" lazy="false" name="password" type="java.lang.String">
+   <column length="50" name="password"/>
+  </property>
+  <property generated="never" lazy="false" name="id" type="java.lang.integer">
+   <column length="50" name="id"/>
+  </property>
+ </class>
+</hibernate-mapping>

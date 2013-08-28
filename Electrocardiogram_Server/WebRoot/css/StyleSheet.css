@@ -1,0 +1,183 @@
+/* CSS Document */
+body 
+{
+	background: #F2F7FB;
+	color: #FFFFFF;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.logintable {
+	border: 1px solid #296C89;
+	background: #159BD0;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.loginheader  {
+	height: 40px;
+	background: url(../login_header.gif) repeat-x;
+	}
+.line1 {
+	border-bottom: 1px solid #3C8DB1; font-size:18px; text-align:center; font-weight:bold;
+	}
+.line2 {
+	border-top: 1px solid #81CDEF;
+	}
+.tborder{
+border-top:1px solid #000000;
+background:#DAE6F3;
+}
+.htborder{
+border-top:1px solid #000000;
+height:5px;
+background:#DAE6F3;
+}
+.maintb
+{
+background:#DAE6F3;
+}
+.newid
+{
+background:url(../image/bg_list.gif);
+padding-top:7px;
+font-size:14px;
+font-weight:bold;
+}
+.button
+{
+padding-top:3px;
+}
+.tr1
+{
+border-bottom:1px solid #AACCEE; border-left:1px solid #AACCEE; border-top:1px solid #AACCEE;border-right:1px solid #AACCEE;
+padding-left:5px; padding-top:5px;
+}
+.tr2
+{
+border-bottom:1px solid #AACCEE; border-right:1px solid #AACCEE; border-top:1px solid #AACCEE;
+}
+.tr3
+{
+border-bottom:1px solid #AACCEE; border-left:1px solid #AACCEE; border-right:1px solid #AACCEE;border-right:1px solid #AACCEE;
+padding-left:5px; padding-top:5px;
+}
+.tr4
+{
+border-right:1px solid #AACCEE; border-bottom:1px solid #AACCEE;padding-left:5px; padding-top:5px;
+}
+.tr0
+{
+border-right:1px solid #AACCEE; border-bottom:1px solid #AACCEE; padding-top:5px;
+}
+.upbuttn
+{
+background:#E8F3FD;
+padding-left:5px;
+}
+.updownbuttn
+{
+padding-left:5px;
+}
+.tbupload
+{
+border:1px solid #CAD9EA;
+}
+.topBg
+{
+background:#60B7DE; 
+}
+.tb_addbook
+{
+color:#000000; padding:3px 3px 3px 3px; border-top:1px solid #CAD9EA; border-left:1px solid #9DB3C5;font-size:12pt;
+}
+.tb_addbookRight
+{
+border-top:1px solid #CAD9EA; border-right:1px solid #9DB3C5; color:#000000;
+}
+.tb_addbookRightS
+{
+border-top:1px solid #CAD9EA; border-right:1px solid #9DB3C5; border-bottom:1px solid #9DB3C5; color:#000000;
+}
+.tb_addbookBgImage
+{
+background:url(../image/bg_list.gif); padding-top:5px; padding-left:5px; font-size:14px; text-align:center;
+}
+.tb_addbookBgImageQ
+{
+background:url(../image/bg_list.gif); padding-top:5px; padding-left:5px; font-size:14px; text-align:left;
+}
+.tb_addbookall
+{
+border:1px solid #9DB3C5;
+}
+.input_bg
+{
+background-color: #FFF8C5; 
+border-bottom: #666666 1px solid;
+border-left: #666666 1px solid;
+border-right: #666666 1px solid;
+border-top: #666666 1px solid;
+color: #009900;
+height: 20px;
+border-color: #666666 #666666 #666666 #666666; font-size: 9pt
+}
+.tb_showallbook
+{
+background:#0078B7;	
+font-size: 24px;
+font-weight: bold;
+}
+.tb_sabookBorder
+{
+border-right:1px solid #E7E7FF; border-top:1px solid #E7E7E7; background:#006699;text-align:center;
+}
+.tb_sabookMain
+{
+background:#d8d4ff; border-right:1px solid #E7E7E7; color:#000000;padding:3px 3px 3px;
+}
+.ZiTie
+{
+color:#FFFFFF;
+}
+.tb_udRInfo
+{
+background:url(../image/bg_menu.gif); padding-top:5px; padding-left:5px; font-size:14px; text-align:center;font-weight:bold;
+}
+.tb_udRnfoBorder
+{
+border-left:1px solid #9DC3DC; border-top:1px solid #9DC3DC; padding-left:3px; padding-top:3px; color:#000000;
+}
+.tb_udRnfoBorderRight
+{
+border-left:1px solid #9DC3DC; border-top:1px solid #9DC3DC; border-right:1px solid #9DC3DC; color:#000000;
+}
+.input_udRnfobg
+{
+background-color: #2885D7; 
+border-bottom: #80D1FB 1px solid;
+border-left: #80D1FB 1px solid;
+border-right: #80D1FB 1px solid;
+border-top: #80D1FB 1px solid;
+color: #ffffff;
+height: 20px;
+border-color: #80D1FB #80D1FB #80D1FB #80D1FB; font-size: 9pt
+}
+.udRnfobg
+{
+border:1px solid #9DC3DC;
+}
+.ZiTie
+{
+color:#000000;
+}
+.inded_main
+{
+border-top:1px solid #990000; border-left:1px solid #990000;
+}
+.borrow_tbmain
+{
+background-color:#CAEEFF;border-right:1px solid #9DC3DC; border-top:1px solid #9DC3DC; color:#000000;text-align:center;
+}
+.borrow-tbmainO
+{
+background-color:#F5FCFF; border-left:1px solid #9DC3DC; border-top:1px solid #9DC3DC; border-bottom:1px solid #9DC3DC; color:#000000;text-align:center;
+}

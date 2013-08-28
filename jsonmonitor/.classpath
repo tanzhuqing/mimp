@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_6_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_3_EM"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_3_CORE"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="D:/json/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/json/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="D:/json/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/json/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/json/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/json/gson-1.6.jar"/>
+	<classpathentry kind="lib" path="D:/json/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/json/struts2-json-plugin-2.1.8.1.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

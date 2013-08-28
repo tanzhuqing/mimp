@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE struts PUBLIC 
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" 
+        "http://struts.apache.org/dtds/struts-2.0.dtd"> 
+ 
+<struts> 
+  <constant name="struts.i18n.encoding" value="UTF-8"></constant>   
+   <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+    <package name="com.action" extends="struts-default"> 
+        <!-- 用户登录 --> 
+        <action name="loginAction" class="com.action.LoginAction"> 
+            <result name="success" type="redirect">/json.jsp</result>
+            <result name="input">/login.jsp</result> 
+        </action> 
+        <!-- 用户注册 --> 
+        <action name="registerAction" class="com.action.RegisterAction"> 
+            <result name="success" type="redirect">/login.jsp</result> 
+                        <result name="input">/register.jsp</result> 
+        </action>  
+       
+        </package> 
+        <!--测试与android端相连  -->
+            
+</struts> 

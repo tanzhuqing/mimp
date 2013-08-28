@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Electrocardiogram_Server"
+  id="myeclipse.1317790100234"
+  context-root="/Electrocardiogram_Server"
+  j2ee-spec="6.0"
+  archive="Electrocardiogram_Server.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

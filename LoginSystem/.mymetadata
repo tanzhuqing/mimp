@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="LoginSystem"
+  id="myeclipse.1317906475497"
+  context-root="/LoginSystem"
+  j2ee-spec="6.0"
+  archive="LoginSystem.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
